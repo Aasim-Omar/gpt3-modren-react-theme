@@ -1,0 +1,137 @@
+.gpt3__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gpt3__navbar-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gpt3__navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.gpt3__navbar-links_logo img {
+  width: 62px;
+  height: 16px;
+}
+
+.gpt3__navbar-links_container {
+  display: flex;
+}
+
+.gpt3__navbar-links_container p {
+  margin-right: 2rem;
+}
+
+.gpt3__navbar-links_sign {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.gpt3__navbar-links_sign p {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.gpt3__navbar-links_sign button {
+  border: 0;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: var(--color-subtext);
+  color: #fff;
+  cursor: pointer;
+}
+
+.gpt3__navbar .toggle-menu {
+  font-size: 1.5rem;
+  transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+  .gpt3__navbar-links {
+    display: none;
+  }
+  .gpt3__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .gpt3__navbar-links {
+    display: flex;
+  }
+  .gpt3__navbar-menu {
+    display: none;
+  }
+}
+
+.gpt3__navbar-sign {
+  display: none;
+}
+
+@media screen and (min-width: 551px) and (max-width: 991px) {
+  .gpt3__navbar-sign {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  .gpt3__navar-menu_sign {
+    display: none;
+  }
+  .gpt3__navbar-sign button {
+    border: 0;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: var(--color-subtext);
+    color: #fff;
+    cursor: pointer;
+  }
+  .gpt3__navbar-sign p {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .gpt3__navbar-sign {
+    display: none;
+  }
+}
+
+.gpt3__navbar-menu {
+  position: relative;
+}
+
+.gpt3__navbar-menu_container {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: var(--color-footer);
+  padding: 1rem 2rem;
+  min-width: 200px;
+  border-radius: 7px;
+}
+
+.gpt3__navbar-menu_container p {
+  padding: 0.5rem 0;
+}
+
+.gpt3__navbar-menu_container button {
+  border: 0;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: var(--color-subtext);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}

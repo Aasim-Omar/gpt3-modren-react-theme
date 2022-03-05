@@ -1,0 +1,53 @@
+.gpt3__whatgpt3 {
+  background-color: var(--color-blog);
+  padding: 3rem !important;
+}
+.gpt3__whatgpt3-feature {
+  display: flex;
+}
+.gpt3__whatgpt3-feature h2 {
+  width: 100%;
+}
+.gpt3__whatgpt3-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gpt3__whatgpt3-head h1 {
+  width: 50%;
+}
+.gpt3__whatgpt3-head p {
+  color: #FF8A71;
+  cursor: pointer;
+}
+.gpt3__whatgpt3-container {
+  display: flex;
+  justify-content: space-between;
+}
+.gpt3__whatgpt3-container > div {
+  width: 30%;
+}
+.gpt3__whatgpt3-container > div p {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .gpt3__whatgpt3-feature,
+  .gpt3__whatgpt3-head,
+  .gpt3__whatgpt3-container {
+    flex-wrap: wrap;
+  }
+  .gpt3__whatgpt3 p {
+    margin: 0.7rem 0;
+  }
+  .gpt3__whatgpt3-head h1 {
+    width: 100%;
+  }
+  .gpt3__whatgpt3-head p {
+    margin: 1rem auto;
+  }
+  .gpt3__whatgpt3-container > div {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}

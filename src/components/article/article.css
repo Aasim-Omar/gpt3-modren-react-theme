@@ -1,0 +1,26 @@
+.gpt3__article {
+  background-color: var(--color-footer);
+  clip-path: polygon(6% 0, 100% 0, 100% 100%, 0 100%, 0 6%);
+  position: relative;
+}
+.gpt3__article-image {
+  width: 100%;
+  height: 40%;
+}
+.gpt3__article-content {
+  padding: 1rem;
+}
+.gpt3__article-content h2 {
+  margin-top: 0.3rem;
+  margin-bottom: 4rem;
+}
+.gpt3__article-content p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.gpt3__article-content p:last-of-type {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}

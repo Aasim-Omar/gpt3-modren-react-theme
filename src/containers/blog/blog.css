@@ -1,0 +1,19 @@
+.gpt3__blog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .gpt3__blog {
+    grid-template-columns: 1.4fr 1fr 1fr;
+  }
+  .gpt3__article:first-of-type {
+    grid-row: span 2;
+  }
+  .gpt3__article:first-of-type img {
+    height: 50%;
+  }
+}
